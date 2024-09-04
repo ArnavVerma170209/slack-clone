@@ -1,13 +1,8 @@
-import React from "react";
+"use client";
 
-interface WorkspaceIdPageProps {
-  params: {
-    workspaceId: string;
-  };
-}
-const page = ({ params } : WorkspaceIdPageProps) => {
+const page = () => {
   return <div>
-    ID : {params.workspaceId}
+    WorkSpace id page
   </div>;
 };
 
